@@ -24,9 +24,9 @@ describe("getspellednumber", function() {
     expect(result).toEqual(correctResult);
   });
 
-  it("input 12306", function() {
-    var input = ['306', '12'];
-    var correctResult= ['six', 'twelve'];
+  it("input 12326", function() {
+    var input = ['326', '12'];
+    var correctResult= ['twenty six', 'twelve'];
     var result = tenAndbitsJudge(input);
 
     expect(result).toEqual(correctResult);
